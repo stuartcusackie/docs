@@ -40,7 +40,7 @@ add_action('after_setup_theme', function () {
 Make sure language files exist in the `resources/lang` directory.
 
 ## Polylang and Sage
-
+You can ignore the previous steps when using Polylang if you apply the following:
 * Install [BenjaminMedia/wp-polylang-theme-strings](https://github.com/BenjaminMedia/wp-polylang-theme-strings)
 * Replace `__()` with `pll__()` in your templates
 
